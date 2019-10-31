@@ -1,0 +1,110 @@
+@charset "utf-8";
+@import "global";
+
+/* HOMEPAGE STYLES */
+.home {
+    margin-top: 5%;
+}
+
+.home.content {
+    color: white;
+    text-align: center;
+}
+
+.description {
+    padding-bottom: 20px;
+}
+
+.button-dl, .button-info {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.button-dl a {
+    display: inline-block;
+    background: url(../images/ButtonDL.png);
+    width: 226px;
+    height: 84px;
+    padding: 29px 0px 0px 40px;
+    color: #fff !important;
+}
+
+.button-info a {
+    display: inline-block;
+    background: url(../images/ButtonInfo.png);
+    width: 226px;
+    height: 84px;
+    padding: 29px 0px 0px 60px;
+    color: #fff !important;
+}
+
+.modal-content {
+    background-color: #fffaee;
+}
+
+.modal-header {
+    background: url(../images/ribbon_68pxh.png) no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+}
+
+.close {
+    color: #fff;
+}
+
+.btn-close {
+    color: #fff;
+    background-color: #501DAB;
+}
+
+.social {
+    margin-top: 60px;
+}
+
+.social images {
+    margin-right: 10px;
+}
+
+.social .banner {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px 1.5rem 13px 1.5rem;
+    width: 220px;
+}
+
+.social a {
+    color: #fff !important;
+}
+
+.social .patreon {
+    background: url(../images/patreon_ribbon.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.social .discord {
+    background: url(../images/discord_ribbon.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+/* ABOUT/TEAM PAGE STYLES */
+section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.links {
+    padding-bottom: 40px;
+}
+
+.team {
+    margin-bottom: 30px;
+}
+
+.team div.row, .images div.row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.work {
+    text-align: center;
+}

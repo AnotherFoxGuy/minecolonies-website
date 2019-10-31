@@ -1,0 +1,81 @@
+---
+title: homepage
+---
+
+<div class="modal fade" id="dlModal" tabindex="-1" role="dialog" aria-labelledby="dlModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="dlModalLabel">Download our Mod</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <p>Please use the links below to download the mod from your chosen provider.</p>
+        <div class="row">
+          <div class="col-6">
+            <a href="https://www.curseforge.com/minecraft/modpacks/minecolonies-testpack"><img
+              src="images/logo_curse.png" alt="Curse Logo" width="360" height="150"/></a>
+            <p>Our Official Modpack (Recommended)</p>
+          </div>
+          <div class="col-6">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/minecolonies"><img
+              src="images/logo_curse.png" alt="Curse Logo" width="360" height="150"/></a>
+            <p>Our Mod</p>
+          </div>
+        </div>
+        <br/>
+        <p>If you are downloading our Modpack from Curse, you will require the Twitch Launcher, or, you can also
+          use MultiMC</p>
+        <div class="row">
+          <div class="col-6">
+            <a href="https://app.twitch.tv/download"><img src="images/logo_twitch.png" alt="Twitch Logo"
+                                                          width="360" height="150"/></a>
+            <p>Twitch Launcher</p>
+          </div>
+          <div class="col-6">
+            <a href="https://multimc.org/#Download"><img src="images/logo_multimc.png" alt="MultiMC Logo"
+                                                         width="150" height="150"/></a>
+            <p>MultiMC</p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-close" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- CONTENT -->
+<div class="container home content">
+  <h1>Welcome to Minecolonies!</h1>
+  <br/>
+  <h3 class="description">Minecolonies is a town building mod that allows you to create your own thriving
+    Colony within Minecraft! With features including many NPC workers, buildings, a fantastic building tool
+    and a robust permissions system in multiplayer, you can have the Colony of your dreams!</h3>
+  <div class="button-dl">
+    <a data-toggle="modal" data-target="#dlModal">Download</a>
+  </div>
+  <div class="button-info">
+    <a href="about.php">Learn More</a>
+  </div>
+  <div class="social">
+    <div class="banner patreon">
+      <a href="https://www.patreon.com/bePatron?u=3239371"><i class="fab fa-patreon fa-lg pr-2"></i>Become
+        a Patron</a>
+    </div>
+    <div class="banner discord">
+      <a href="https://discord.gg/gA7T6ma"><i class="fab fa-discord fa-lg pr-2"></i>Join Our Discord</a>
+    </div>
+  </div>
+</div>
+<!-- /CONTENT -->
+
+
+<script>
+    var viewportHeight = $('.sidenav').outerHeight();
+    $('.sidenav, .overlay').css({height: viewportHeight + 70});
+</script>

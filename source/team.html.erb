@@ -1,0 +1,182 @@
+<section class="container">
+  <ol class="team-chart pb-5">
+    <li>
+      <h1>Our Team</h1>
+      <hr/>
+      <ol>
+        <li>
+          <div class='title'><h2>Programmers</h2></div>
+          <ol>
+            <li>
+              <div class="subtitle"><h3>Lead Devs</h3></div>
+              <ol>
+                <% data.programmers.leadDevs.each do |person| %>
+                  <li><div>
+                    <img src='https://crafatar.com/renders/body/<%= person.mcAvatar %>?overlay=true&scale=4' class='float-md-left' />
+                    <h3><%= person.userName %></h3>
+                    <p><%= person.name %><p>
+                    <p>
+                      <% person.jobs.each do |j| %>
+                      <%= j %><br />
+                      <% end %>
+                    </p>
+                    <p><em><%= person.tagline %></em></p>
+                    <div class='clearfix'></div>
+                  </div></li>
+                <% end %>
+              </ol>
+            </li>
+
+            <li>
+              <div class="subtitle"><h3>Lead Devs (Inactive)</h3></div>
+              <ol>
+                <% data.programmers.leadDevs.each do |person| %>
+                  <li><div>
+                    <img src='https://crafatar.com/renders/body/<%= person.mcAvatar %>?overlay=true&scale=4' class='float-md-left' />
+                    <h3><%= person.userName %></h3>
+                    <p><%= person.name %><p>
+                    <p>
+                      <% person.jobs.each do |j| %>
+                        <%= j %><br />
+                      <% end %>
+                    </p>
+                    <p><em><%= person.tagline %></em></p>
+                    <div class='clearfix'></div>
+                  </div></li>
+                <% end %>
+              </ol>
+            </li>
+
+            <li>
+              <div class="subtitle"><h3>Coders</h3></div>
+              <ol>
+                <% data.programmers.leadDevs.each do |person| %>
+                  <li><div>
+                    <img src='https://crafatar.com/renders/body/<%= person.mcAvatar %>?overlay=true&scale=4' class='float-md-left' />
+                    <h3><%= person.userName %></h3>
+                    <p><%= person.name %><p>
+                    <p>
+                      <% person.jobs.each do |j| %>
+                        <%= j %><br />
+                      <% end %>
+                    </p>
+                    <p><em><%= person.tagline %></em></p>
+                    <div class='clearfix'></div>
+                  </div></li>
+                <% end %>
+              </ol>
+            </li>
+
+            <li>
+              <div class="subtitle"><h3>Coders (Inactive)</h3></div>
+              <ol>
+                <% data.programmers.leadDevs.each do |person| %>
+                  <li><div>
+                    <img src='https://crafatar.com/renders/body/<%= person.mcAvatar %>?overlay=true&scale=4' class='float-md-left' />
+                    <h3><%= person.userName %></h3>
+                    <p><%= person.name %><p>
+                    <p>
+                      <% person.jobs.each do |j| %>
+                        <%= j %><br />
+                      <% end %>
+                    </p>
+                    <p><em><%= person.tagline %></em></p>
+                    <div class='clearfix'></div>
+                  </div></li>
+                <% end %>
+              </ol>
+            </li>
+
+          </ol>
+        </li>
+        <li>
+          <div class='title'><h2>Assets Team</h2></div>
+          <ol>
+
+            <li>
+              <div class="subtitle"><h3>Art Team</h3></div>
+              <ol>
+                <% data.programmers.leadDevs.each do |person| %>
+                  <li><div>
+                    <img src='https://crafatar.com/renders/body/<%= person.mcAvatar %>?overlay=true&scale=4' class='float-md-left' />
+                    <h3><%= person.userName %></h3>
+                    <p><%= person.name %><p>
+                    <p>
+                      <% person.jobs.each do |j| %>
+                        <%= j %><br />
+                      <% end %>
+                    </p>
+                    <p><em><%= person.tagline %></em></p>
+                    <div class='clearfix'></div>
+                  </div></li>
+                <% end %>
+              </ol>
+            </li>
+
+            <li>
+              <div class="subtitle"><h3>Art Team (Inactive)</h3></div>
+              <ol>
+                <% data.programmers.leadDevs.each do |person| %>
+                  <li><div>
+                    <img src='https://crafatar.com/renders/body/<%= person.mcAvatar %>?overlay=true&scale=4' class='float-md-left' />
+                    <h3><%= person.userName %></h3>
+                    <p><%= person.name %><p>
+                    <p>
+                      <% person.jobs.each do |j| %>
+                        <%= j %><br />
+                      <% end %>
+                    </p>
+                    <p><em><%= person.tagline %></em></p>
+                    <div class='clearfix'></div>
+                  </div></li>
+                <% end %>
+              </ol>
+            </li>
+
+            <li>
+              <div class="subtitle"><h3>Voice Actors</h3></div>
+              <ol>
+                <% data.programmers.leadDevs.each do |person| %>
+                  <li><div>
+                    <img src='https://crafatar.com/renders/body/<%= person.mcAvatar %>?overlay=true&scale=4' class='float-md-left' />
+                    <h3><%= person.userName %></h3>
+                    <p><%= person.name %><p>
+                    <p>
+                      <% person.jobs.each do |j| %>
+                        <%= j %><br />
+                      <% end %>
+                    </p>
+                    <p><em><%= person.tagline %></em></p>
+                    <div class='clearfix'></div>
+                  </div></li>
+                <% end %>
+              </ol>
+            </li>
+          </ol>
+        </li>
+
+        <li>
+          <div class='title'><h2>Web Team</h2></div>
+          <ol>
+            <% data.webTeam.each do |person| %>
+              <li><div>
+                <img src='https://crafatar.com/renders/body/<%= person.mcAvatar %>?overlay=true&scale=4' class='float-md-left' />
+                <h3><%= person.userName %></h3>
+                <p><%= person.name %><p>
+                <p>
+                  <% person.jobs.each do |j| %>
+                    <%= j %><br />
+                  <% end %>
+                </p>
+                <p><em><%= person.tagline %></em></p>
+                <div class='clearfix'></div>
+              </div></li>
+            <% end %>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+</section>
+
+<%= stylesheet_link_tag "team-chart" %>

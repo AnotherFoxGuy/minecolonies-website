@@ -1,0 +1,23 @@
+<!-- SCRIPTS -->
+
+
+<script>
+    $( document ).ready(function() {
+        // Open navbarSide when button is clicked
+        $('#navbarSideButton').on('click', function() {
+            $('.sidenav, .overlay').addClass('active');
+            $('body').css('overflow-y', 'hidden');
+        });
+        // Close navbarSide when the outside of menu is clicked
+        $('.overlay').on('click', function(){
+            $('.sidenav, .overlay').removeClass('active');
+            $('body').css('overflow-y', '');
+        });
+    });
+</script>
+
+<footer class="ribbon">
+  <div class="container">
+    <p class="float-left">© Minecolonies 2019</p>
+  </div>
+</footer>
