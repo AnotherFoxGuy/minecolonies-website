@@ -16,6 +16,7 @@
 }
 
 .button-dl, .button-info {
+    cursor: pointer;
     display: inline-block;
     margin-right: 20px;
 }
@@ -107,4 +108,9 @@ section {
 
 .work {
     text-align: center;
+}
+
+.img-padding{
+    padding: 5px;
+    cursor: pointer;
 }
