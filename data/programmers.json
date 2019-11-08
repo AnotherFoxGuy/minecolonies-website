@@ -11,6 +11,116 @@
         "Everything"
       ],
       "tagline": "Our nice Capoerista"
+    },
+    {
+      "mcAvatar": "4f99426f-43ad-418b-8b5a-ad91443f9374",
+      "userName": "OrionOnline",
+      "name": "Marc Hermans",
+      "jobs": [
+        "Programming",
+        "Management",
+        "Build System Admin"
+      ],
+      "tagline": "§k #2:&5%401"
+    },
+    {
+      "mcAvatar": "9186b2cf-ae1f-4d69-aa67-81a7cb69008d",
+      "userName": "Asherslab",
+      "name": "Asher Parry",
+      "jobs": [
+        "Programming"
+      ],
+      "tagline": "Raycom's coding AI"
+    }
+  ],
+  "leadDevsInactive": [
+    {
+      "mcAvatar": "3137a21b-e8e2-40ca-8640-c744042d5564",
+      "userName": "pmardle",
+      "name": "Peter Mardle",
+      "jobs": [
+        "Founder",
+        "Management"
+      ],
+      "tagline": "Our posh gentleman"
+    },
+    {
+      "mcAvatar": "8667ba71-b85a-4004-af54-457a9734eed7",
+      "userName": "flaminyogurt",
+      "name": "Colton Schlosser",
+      "jobs": [
+        "Programming",
+        "Management"
+      ],
+      "tagline": "The Doc"
+    },
+    {
+      "mcAvatar": "180ecd0e-2848-46d3-847f-4d357802aba0",
+      "userName": "Kostronor",
+      "name": "Marvin Hofmann",
+      "jobs": [
+        "Programming",
+        "Management"
+      ],
+      "tagline": "The cool Ghost Rider."
+    }
+  ],
+  "coders": [
+    {
+      "mcAvatar": "c1a5dd12-a6d1-40ec-aacf-ae047ba842f3",
+      "userName": "Pixblockus",
+      "name": "",
+      "jobs": [
+        "Programming"
+      ],
+      "tagline": "One feature has no end"
+    }
+  ],
+  "codersInactive": [
+    {
+      "mcAvatar": "4a1f1614-ac51-46a1-8ca6-d8cf3168f3ee",
+      "userName": "Xavierh",
+      "name": "Xavier Hervy",
+      "jobs": [
+        "Programming"
+      ],
+      "tagline": "Legolas, is that you?"
+    },
+    {
+      "mcAvatar": "9a09ca06-403e-4539-ad28-b731ab026671",
+      "userName": "MineShadow7",
+      "name": "Andrey Karagodin",
+      "jobs": [
+        "Programming"
+      ],
+      "tagline": "Slowly building an empire"
+    },
+    {
+      "mcAvatar": "98ec3a31-42ee-47eb-a4dc-1a3cd7fab0af",
+      "userName": "Zyxifrash",
+      "name": "",
+      "jobs": [
+        "Programming"
+      ],
+      "tagline": "Om Nom Nom"
+    },
+    {
+      "mcAvatar": "2e76646a-2be2-4fcb-807a-ea742af4e283",
+      "userName": "Fireruner97",
+      "name": "Daniel Fuego",
+      "jobs": [
+        "Programming"
+      ],
+      "tagline": "Our Spanish Toureiro"
+    },
+    {
+      "mcAvatar": "ba375a7f-fbb1-4497-b42e-f7b92b9afdb3",
+      "userName": "TheYoxy",
+      "name": "Floryan Simar",
+      "jobs": [
+        "Programming"
+      ],
+      "tagline": "Sheep can look smart too"
     }
   ]
 }

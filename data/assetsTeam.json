@@ -1,15 +1,50 @@
 {
   "artTeam": [
     {
-      "mcAvatar": "fefb153f-4ffc-4f5c-acd2-3291e73bdd4d",
-      "userName": "_Raycoms_ (H3Lay)",
-      "name": "Ray Neiheiser",
+      "mcAvatar": "f82f921f-8242-49a7-a436-76c0a297b122",
+      "userName": "D3miurge",
+      "name": "Rafael de Castro Pamplona",
       "jobs": [
-        "Programming",
-        "Management",
-        "Everything"
+        "Static Modelling",
+        "Texturing",
+        "Concept Art",
+        "Building Design"
       ],
-      "tagline": "Our nice Capoerista"
+      "tagline": "Metroidvania Vampire"
+    },
+    {
+      "mcAvatar": "fb422c77-522d-4241-b553-6d67fb2697f0",
+      "userName": "Khranos",
+      "name": "Khranos Lucror",
+      "jobs": [
+        "Animated/Static modelling",
+        "Texturing"
+      ],
+      "tagline": "The Terminator!"
+    },
+    {
+      "mcAvatar": "2d77af5b-215c-48fb-b9a8-669eb0b6a094",
+      "userName": "ImriLaoi",
+      "name": "Tasha Wells",
+      "jobs": [
+        "Static Modelling",
+        "Texturing"
+      ],
+      "tagline": "They aren't furry ears, honest!"
+    }
+  ],
+  "voiceActors": [
+    {
+      "name": "Brianna Theresa"
+    },
+    {
+      "name": "Drew Shulman"
+    },
+    {
+      "name": "Kaine Crooks"
+    },
+    {
+      "name": "Matthew Kriner"
     }
   ]
 }

@@ -1,13 +1,22 @@
 [
   {
-    "mcAvatar": "fefb153f-4ffc-4f5c-acd2-3291e73bdd4d",
-    "userName": "_Raycoms_ (H3Lay)",
-    "name": "Ray Neiheiser",
+    "mcAvatar": "b5a93d5b-38fc-4df2-98a7-0b3c7cd7cd0c",
+    "userName": "Wissi",
+    "name": "Luis Muñoz",
     "jobs": [
-      "Programming",
-      "Management",
-      "Everything"
+      "Wiki Editor",
+      "Modpack Creator"
     ],
-    "tagline": "Our nice Capoerista"
+    "tagline": "Our Loyal Adventurer"
+  },
+  {
+    "mcAvatar": "2abe5404-4a2f-4e30-b3ff-671696227a90",
+    "userName": "PoroUsedSnax",
+    "name": "Mark Fisher",
+    "jobs": [
+      "Web Developer",
+      "A bit of Everything"
+    ],
+    "tagline": "Got any Snax?"
   }
 ]
