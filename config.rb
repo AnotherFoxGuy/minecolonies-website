@@ -16,6 +16,12 @@ page "/index.html", :layout => "home"
 activate :livereload
 activate :directory_indexes
 
+data.competitions.each do |item|
+  proxy "/competitions/archive/#{item.date}.html", "competitions-archive-template.html", :locals => {
+      :comp => item
+  }, :ignore => true
+end
+
 configure :build do
   activate :minify_css
 end

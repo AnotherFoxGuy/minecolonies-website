@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Competition name 2",
+    "date": "22-11-19",
+    "description": "Minecolonies is a town building mod that allows you to create your own thriving Colony within Minecraft! With features including many NPC workers, buildings, a fantastic building tool and a robust permissions system in multiplayer, you can have the Colony of your dreams!",
+    "winners": [
+      {
+        "name": "Edgar",
+        "screenshot": "screenshot30.jpg"
+      },
+       {
+        "name": "Declan",
+        "screenshot": "screenshot29.jpg"
+      },
+      {
+        "name": "Jeremiah",
+        "screenshot": "screenshot28.jpg"
+      }
+    ],
+    "participants": [
+      {
+        "name": "Mason",
+        "screenshot": "screenshot4.jpg"
+      },
+      {
+        "name": "Ambrose",
+        "screenshot": "screenshot5.jpg"
+      },
+      {
+        "name": "Barnaby",
+        "screenshot": "screenshot6.jpg"
+      }
+    ]
+  }
+  ,
+  {
+    "name": "Competition name 1",
+    "date": "25-11-18",
+    "description": "Minecolonies is a town building mod that allows you to create your own thriving Colony within Minecraft! With features including many NPC workers, buildings, a fantastic building tool and a robust permissions system in multiplayer, you can have the Colony of your dreams!",
+    "winners": [
+      {
+        "name": "Edgar",
+        "screenshot": "screenshot25.jpg"
+      },
+      {
+        "name": "Declan",
+        "screenshot": "screenshot24.jpg"
+      },
+      {
+        "name": "Jeremiah",
+        "screenshot": "screenshot23.jpg"
+      }
+    ],
+    "participants": [
+      {
+        "name": "Mason",
+        "screenshot": "screenshot4.jpg"
+      },
+      {
+        "name": "Ambrose",
+        "screenshot": "screenshot5.jpg"
+      },
+      {
+        "name": "Barnaby",
+        "screenshot": "screenshot6.jpg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+---
+title: Competitions archive
+---
+
+<section class="container">
+  <h1 class="text-center">Competitions archive</h1>
+  <hr/>
+  <div class="row" style="padding-bottom: 2.5em">
+  <ul>
+    <% data.competitions.each do |comp| %>
+      <li><%= link_to comp.name, '/competitions/archive/' + comp.date + '.html' %> Winner: <%= comp.winners[0].name %></li>
+    <% end %>
+  </ul>
+  </div>
+</section>
