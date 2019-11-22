@@ -26,3 +26,15 @@ configure :build do
   activate :minify_css
 end
 
+helpers do
+  def genEmbedded(id)
+    if id.video
+      html = '<div class="videoWrapper"><iframe src="https://www.youtube-nocookie.com/embed/'
+      html += id.video
+      html += '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+    else
+      html = '<img class="img-fluid" style="cursor: pointer;" src="/images/screenshots/' + id.screenshot + '"/>'
+    end
+    return html
+  end
+end

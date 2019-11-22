@@ -2,14 +2,14 @@
 
 
 <script>
-    $( document ).ready(function() {
+    $(document).ready(function () {
         // Open navbarSide when button is clicked
-        $('#navbarSideButton').on('click', function() {
+        $('#navbarSideButton').on('click', function () {
             $('.sidenav, .overlay').addClass('active');
             $('body').css('overflow-y', 'hidden');
         });
         // Close navbarSide when the outside of menu is clicked
-        $('.overlay').on('click', function(){
+        $('.overlay').on('click', function () {
             $('.sidenav, .overlay').removeClass('active');
             $('body').css('overflow-y', '');
         });

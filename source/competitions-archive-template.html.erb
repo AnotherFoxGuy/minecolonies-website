@@ -7,18 +7,18 @@ title: Competitions
   <hr/>
   <h2 class="text-center"><%= comp.name %></h2>
   <div class="row" id="images">
-    <div class="col-12 text-center" style="padding-bottom: 2.5em">
+    <div class="col-12 text-center" style="margin-bottom: 2.5em; min-height: 30em">
       <p>Winner: <%= comp.winners[0].name %></p>
-      <img class="img-fluid" src="/images/screenshots/<%= comp.winners[0].screenshot %>"/>
+      <%= genEmbedded(comp.winners[0]) %>
     </div>
     <hr/>
     <div class="col-7 text-center">
       <p>Second place: <%= comp.winners[1].name %></p>
-      <img class="img-fluid" src="/images/screenshots/<%= comp.winners[1].screenshot %>"/>
+      <%= genEmbedded(comp.winners[1]) %>
     </div>
     <div class="col-5 text-center">
       <p>Third place: <%= comp.winners[2].name %></p>
-      <img class="img-fluid" src="/images/screenshots/<%= comp.winners[2].screenshot %>"/>
+      <%= genEmbedded(comp.winners[2]) %>
     </div>
   </div>
   <hr/>
