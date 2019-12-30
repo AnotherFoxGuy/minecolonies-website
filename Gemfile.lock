@@ -92,7 +92,7 @@ GEM
     rack-livereload (0.3.17)
       rack
     rb-fsevent (0.10.3)
-    rb-inotify (0.10.0)
+    rb-inotify (0.10.1)
       ffi (~> 1.0)
     sassc (2.2.1)
       ffi (~> 1.9)
